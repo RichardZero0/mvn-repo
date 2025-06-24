@@ -5,4 +5,24 @@
   <groupId>core.framework</groupId>
   <artifactId>core-ng-mongo-test</artifactId>
   <version>9.0.8</version>
+  <dependencies>
+    <dependency>
+      <groupId>core.framework</groupId>
+      <artifactId>core-ng-test</artifactId>
+      <version>9.0.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>core.framework</groupId>
+      <artifactId>core-ng-mongo</artifactId>
+      <version>9.0.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.bwaldvogel</groupId>
+      <artifactId>mongo-java-server</artifactId>
+      <version>1.44.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
